@@ -8,8 +8,7 @@ int red = 0;
 int green = 0;
 int blue = 0;
 byte mac[] = {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED}; // physical mac address
-byte ip[] = {10, 190, 160, 200};                   // ip in lan
-// 10.190.160.196
+byte ip[] = {10, 190, 160, 200};                   // change with desired ip address
 byte gateway[] = {10, 190, 160, 1}; // internet access via router
 byte subnet[] = {255, 255, 240, 0}; // subnet mask
 EthernetServer server(80);          // server port
