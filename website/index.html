@@ -1,0 +1,31 @@
+<HTML>
+
+<HEAD>
+    <meta name='apple-mobile-web-app-capable' content='yes' />
+    <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
+    <link rel='stylesheet' type='text/css' href='https://zfauser.github.io/arduino/index.css' />
+    <title>ArduinoRGB</title>
+</HEAD>
+
+<BODY>
+    <div class='container'>
+        <H1>ArduinoRGB</H1>
+        <hr>
+        <h3 id="powerValue">LED: off</h3>
+        <label class="switch">
+            <input type="checkbox" id="powerSlider">
+            <span class="slider round"></span>
+        </label>
+        <h3 id="redValue">Red: 0</h3>
+        <input type="range" onchange="redChange()" min="0" max="255" value="0" class="sliderRed" id="redSlider" />
+        <h3 id="greenValue">Green: 0</h3>
+        <input type="range" onchange="greenChange()" min="0" max="255" value="0" class="sliderGreen" id="greenSlider" />
+        <h3 id="blueValue">Blue: 0</h3>
+        <input type="range" onchange="blueChange()" min="0" max="255" value="0" class="sliacderBlue" id="blueSlider" />
+        <br>
+        <button onclick="RESET()">RESET</button>
+    </div>
+    <script src="https://zfauser.github.io/arduino/index.js"></script>
+</BODY>
+
+</HTML>
