@@ -74,7 +74,7 @@ void loop()
           client.println("<hr>");
           client.println("<h3 id='powerValue'>LED: off</h3>");
           client.println("<label class='switch'>");
-          client.println("<input type='checkbox' id='powerSlider'>");
+          client.println("<input type='checkbox' id='powerSlider'/>");
           client.println("<span class='slider round'></span>");
           client.println("</label>");
           client.println("<h3 id='redValue'>Red: 0</h3>");
