@@ -1,4 +1,4 @@
-<h2 align="center">⚠️ Currently Untested</h2>
+<h2 align="center">⚠️ Currently Untested ⚠️</h2>
 
 # ArduinoRGB
 
