@@ -1,3 +1,5 @@
+# <u>**Currently untested**</u>
+
 # ArduinoRGB
 
 Control an RGB LED via the internet using a Arduino Ethernet Shield
