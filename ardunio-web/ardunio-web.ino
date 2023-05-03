@@ -9,9 +9,9 @@ int green = 0;
 int blue = 0;
 byte mac[] = {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED}; // physical mac address
 byte ip[] = {10, 190, 160, 200};                   // change with desired ip address
-byte gateway[] = {10, 190, 160, 1}; // internet access via router
-byte subnet[] = {255, 255, 240, 0}; // subnet mask
-EthernetServer server(80);          // server port
+byte gateway[] = {10, 190, 160, 1};                // internet access via router
+byte subnet[] = {255, 255, 240, 0};                // subnet mask
+EthernetServer server(80);                         // server port
 String readString;
 
 void setup()
@@ -65,7 +65,7 @@ void loop()
           client.println("<HEAD>");
           client.println("<meta name='apple-mobile-web-app-capable' content='yes' />");
           client.println("<meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />");
-          client.println("<link rel='stylesheet' type='text/css' href='https://zfauser.github.io/arduino/index.css' />");
+          client.println("<link rel='stylesheet' type='text/css' href='https://zfauser.github.io/Arduino-Ethernet-RGB/website/index.css' />");
           client.println("<title>ArduinoRGB</title>");
           client.println("</HEAD>");
           client.println("<BODY>");
@@ -87,7 +87,7 @@ void loop()
           client.println("<br>");
           client.println("<button onclick='RESET()'>RESET</button>");
           client.println("</div>");
-          client.println("<script src='https://zfauser.github.io/arduino/index.js'></script>");
+          client.println("<script src='https://zfauser.github.io/Arduino-Ethernet-RGB/website/index.js'></script>");
           client.println("</BODY>");
           client.println("</HTML>");
           delay(1);
