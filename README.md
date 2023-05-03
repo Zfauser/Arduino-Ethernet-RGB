@@ -6,7 +6,7 @@ Control an RGB LED via the internet using a Arduino Ethernet Shield
 
 ## Wiring Diagram
 
-![Wiring Diagram](https://user-images.githubusercontent.com/19974370/235811810-8418ffbd-b514-42f4-848e-6f61085afbd4.png)
+![Wiring Diagram](https://user-images.githubusercontent.com/19974370/235933002-2d6a99e0-6968-4943-98a4-b733e03ca990.png)
 
 Also make sure to change IP, Gateway, and Subnet addresses in the `ardunio-web.ino` file
 
