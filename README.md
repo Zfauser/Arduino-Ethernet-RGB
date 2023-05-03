@@ -14,6 +14,6 @@ Also make sure to change IP, Gateway, and Subnet addresses in the `ardunio-web.i
 
 <img width="1920" alt="Demo of website" src="https://user-images.githubusercontent.com/19974370/235812011-b0642785-ce18-4b80-bea4-d9a243ca3667.png">
 
---
+<hr>
 
-MIT Licensed
+[MIT Licensed](./LICENSE)
