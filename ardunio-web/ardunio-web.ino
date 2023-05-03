@@ -1,9 +1,9 @@
 #include <SPI.h>
 #include <Ethernet.h>
 
-const int PIN_RED = 5;
-const int PIN_GREEN = 6;
-const int PIN_BLUE = 7;
+const int PIN_RED = 3;
+const int PIN_GREEN = 5;
+const int PIN_BLUE = 6;
 int red = 0;
 int green = 0;
 int blue = 0;
