@@ -1,5 +1,3 @@
-<h2 align="center">⚠️ Currently Untested: Could just not work ⚠️</h2>
-
 # ArduinoRGB
 
 Control an RGB LED via the internet using a Arduino Ethernet Shield
